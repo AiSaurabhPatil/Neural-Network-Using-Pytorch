@@ -80,7 +80,7 @@ for epoch in range(num_epoches):
         # Optimize the backward propagation 
         optimizer.step()
 
-
+# evaluation of the model 
 def check_accuracy(loader , model):
     num_correct = 0
     num_samples = 0
