@@ -6,9 +6,8 @@ from torch.utils.data import DataLoader
 from torchvision import datasets 
 from torchvision.transforms  import ToTensor 
 from torch import optim
-import time
-# downloading the dataset 
 
+# downloading the Fashion MNIST dataset of testing purpose 
 training_data = datasets.FashionMNIST(
     root='data',
     train = True , 
